@@ -1,4 +1,4 @@
 ## 多路由模块
 ```language
-ng g module name --rou
+ng g module name --routing
 ```
