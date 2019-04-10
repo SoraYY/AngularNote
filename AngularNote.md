@@ -1,4 +1,9 @@
-[TOC]
+---
+toc:
+  depth_from: 1
+  depth_to: 6
+  ordered: false
+---
 
 ## 多路由模块
 生成一个带路由的模块
