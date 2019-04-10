@@ -8,6 +8,8 @@ ng g module name --routing
 
 ## Observable可观察者对象
 ### 观察者回调函数
-next:必要。用来处理每个送达值。在开始执行后可能执行零次或多次。<br>
-error:可选。用来处理错误通知。错误会中断这个可观察对象实例的执行过程<br>
-complete:可选。用来处理执行完毕（complete）通知。当执行完毕后，这些值就会继续传给下一个处理器
+
+Observables 与 Observer 之间的订阅发布关系(观察者模式) 如下：
+
+订阅：Observer 通过 Observable 提供的 subscribe() 方法订阅 Observable。
+发布：Observable 通过回调 next 方法向 Observer 发布事件。
